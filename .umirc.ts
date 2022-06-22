@@ -6,8 +6,12 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
-  layout: {
-    title: '@umijs/max',
+  // layout: {
+  //   title: '@umijs/max',
+  // },
+  locale: {
+    default: 'en-US',
+    antd: true,
   },
   routes: [
     {
